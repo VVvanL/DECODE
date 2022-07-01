@@ -8,18 +8,18 @@ localization microscopy (SMLM). It has high accuracy for a large range of imagin
 conditions. 
 On the public [SMLM 2016](http://bigwww.epfl.ch/smlm/challenge2016/) software benchmark competition,
 it [outperformed](http://bigwww.epfl.ch/smlm/challenge2016/leaderboard.html) all other fitters on 
-12 out of 12 data-sets when comparing both detection accuracy and localization error, often by a 
+12 out of 12 data-sets on both detection accuracy and localization error, often by a 
 substantial margin. DECODE enables live-cell SMLM data with reduced light exposure in just 3 
 seconds and to image microtubules at ultra-high labeling density.
 
 DECODE works by training a DEep COntext DEpendent (DECODE) neural network to detect and localize 
-emitters at sub-pixel resolution. Notably, DECODE also predict detection and localization 
+emitters at sub-pixel resolution. Notably, DECODE also predicts detection and localization 
 uncertainties, which can be used to generate superior super-resolution reconstructions.
 
 ## Getting started
 
-The easiest way to try out the algorithm is to have a look at the Google Colab Notebooks we provide
-for training our algorithm and fitting experimental data. For installation instructions and further 
+The easiest way to try out the algorithm is to have a look at the Google Colab Notebooks. 
+We provide them for training our algorithm and fitting experimental data. For installation instructions and further 
 information please **refer to our** [**docs**](https://decode.readthedocs.io).
 You can find these here:
 
@@ -30,6 +30,10 @@ You can find these here:
 ## Local Installation
 
 Details about the installation can be found in the [documentation](https://decode.readthedocs.io).
+
+### DECODE cloud
+Please reach out to Lucas (lrm@lrm.dev) if you want to use DECODE, but you do not have the right hardware, or
+want to use it at a larger scale.
 
 ## Video Tutorial
 As part of the virtual [I2K 2020](https://www.janelia.org/you-janelia/conferences/from-images-to-knowledge-with-imagej-friends) conference we organized a workshop on DECODE.
@@ -52,7 +56,12 @@ The data referred to in our paper can be accessed at the following locations:
 ## Contributors
 If you want to get in touch, the best way to get your questions answered is our [**GitHub discussions page**](https://github.com/TuragaLab/DECODE/discussions)
 - Artur Speiser ([@aspeiser](https://github.com/ASpeiser), arturspeiser@gmail.com)
-- Lucas-Raphael Müller ([@haydnspass](https://github.com/Haydnspass), lucasraphaelmueller@gmail.com)
+- Lucas-Raphael Müller ([@haydnspass](https://github.com/Haydnspass), lrm@lrm.dev)
+
+## Support
+
+Jakob H. Macke and Artur Speiser were supported by the German Research Foundation (DFG) through Germany’s Excellence Strategy (EXC-Number 2064/1, project no. 390727645) and the German Federal Ministry of Education and Research (BMBF, project no. [ADIMEM](https://fit.uni-tuebingen.de/Project/Details?id=9199), FKZ 01IS18052). 
+Srinivas C. Turaga is supported by the Howard Hughes Medical Institute. Jonas Ries, Lucas-Raphael Mueller and Philipp Hoess were supported by the European Molecular Biology Laboratory, the European Research Council (grant no. CoG-724489 to Jonas Ries) and the National Institutes of Health Common Fund 4D Nucleome Program (grant no. U01 EB021223 to Jonas Ries). 
 
 ### Join us
 We offer several open positions. Please take a look at the [pdf](https://www.embl.de/download/ries/other/Simalesam_ad.pdf) on how to apply.
